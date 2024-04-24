@@ -17,7 +17,7 @@
   flex-direction: column;
   @media (max-width: 620px) {
     width: 100%;
-    height: 500px;
+    height: 0.8fr;
   }
   .-header {
     padding: 20px 0;
@@ -66,12 +66,15 @@
         padding: 6px 32px;
         background: #204de9;
         width: auto;
+        text-align: left;
   
         font-weight: 400;
         font-size: 16px;
-        text-align: center;
         max-width: 250px;
         color: #f9f9f9;
+        &.left {
+          background: #6e84d4;
+        }
       }
     }
   }

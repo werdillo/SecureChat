@@ -116,6 +116,9 @@ export default function App() {
           Ieva
         </div>
         <div className='-chat' ref={chatRef}> 
+          <div className='-msg-container left'>
+            <div className='-message left'>Тosūtiet pārskatam vajadzīgo dokumentu.</div>
+          </div>
           {messages.map((msg, index) => (
             <div key={index} className='-msg-container'>
               {msg.endsWith('.jpg') ? <img src={msg} className='-img' alt="Chat Image" style={{ maxWidth: '200px' }} /> : <div className='-message'>{msg}</div>}
