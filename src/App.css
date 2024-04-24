@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   @media (max-width: 620px) {
-    width: 100%;
+    width: 80%;
     height: 1fr;
   }
   .-header {
