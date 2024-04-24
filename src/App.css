@@ -158,17 +158,17 @@
   .-title {
     font-size: 20px;
     font-weight: 500;
-    color: #903b3b;
-    
+    color: #903b3b;    
     text-align: center;
     @media (max-width: 620px) {
         font-size: 16px;
       }
-      &.b {
+    &.b {
         font-size: 24px;
         font-weight: 700;
         color: #AC1313;
       }
+
   }
   .-buttons {
     display: grid;
@@ -180,6 +180,7 @@
       border-radius: 12px;
       padding: 6px 16px;
       width: auto;
+      color: #fff;
       @media (max-width: 620px) {
           font-size: 12px;
         }
