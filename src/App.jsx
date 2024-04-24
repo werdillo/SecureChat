@@ -117,7 +117,7 @@ export default function App() {
         </div>
         <div className='-chat' ref={chatRef}> 
           <div className='-msg-container left'>
-            <div className='-message left'>Тosūtiet pārskatam vajadzīgo dokumentu.</div>
+            <div className='-message left'>Sveiki, lūdzu, atsūtiet man dokumentu, kas jums nepieciešams gada pārskatam.</div>
           </div>
           {messages.map((msg, index) => (
             <div key={index} className='-msg-container'>

@@ -70,10 +70,10 @@
   
         font-weight: 400;
         font-size: 16px;
-        max-width: 250px;
+        max-width: 300px;
         color: #f9f9f9;
         &.left {
-          background: #6e84d4;
+          background: #5466a9;
         }
       }
     }
