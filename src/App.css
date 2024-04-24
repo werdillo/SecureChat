@@ -16,8 +16,8 @@
   display: flex;
   flex-direction: column;
   @media (max-width: 620px) {
-    width: 80%;
-    height: 1fr;
+    width: 100%;
+    height: 80%;
   }
   .-header {
     padding: 20px 0;
@@ -91,7 +91,7 @@
       width: 100%;
       height: 30px;
       background: #fff;
-      color: #575757;
+      color: #888;
       padding: 0 16px;
     }
     .-icon {
@@ -164,11 +164,10 @@
         font-size: 16px;
       }
     &.b {
-        font-size: 24px;
-        font-weight: 700;
-        color: #AC1313;
-      }
-
+      font-size: 24px;
+      font-weight: 700;
+      color: #AC1313;
+    }
   }
   .-buttons {
     display: grid;
@@ -177,10 +176,10 @@
     margin-top: 30px;
 
     .-item {
+      color: #f9f9f9;
       border-radius: 12px;
       padding: 6px 16px;
       width: auto;
-      color: #fff;
       @media (max-width: 620px) {
           font-size: 12px;
         }
